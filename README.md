@@ -13,12 +13,12 @@ And that's not the end of it all - once you enter the first loop of your journey
 ![Loop elites](https://files.catbox.moe/aspbo0.png)  
 
 ## New Enemy
-![Two Carer Mushrums](https://files.catbox.moe/rgwgij.png)  
+![Two Mother Mushrums](https://files.catbox.moe/rgwgij.png)  
   
-An addition to the Mushrum family - the **Carer Mushrum**!  
+An addition to the Mushrum family - the **Mother Mushrum**!  
 This enemy periodically emits little spores, dealing damage on contact with players and allies... and healing targets on contact with enemies!  
-Despite its stationary behaviour, getting too far away will make the Carer Mushrum burrow into the ground and appear right beside you again!
+Despite its stationary behaviour, getting too far away will make the Mother Mushrum burrow into the ground and appear right beside you again!
 
 # Credits
 TheMysticSword - Coding  
-Marwan60 - Carer Mushrum model & animations, Aquamarine and Onyx elite ideas
+Marwan60 - Mother Mushrum idea, model and animations; Aquamarine and Onyx elite ideas
