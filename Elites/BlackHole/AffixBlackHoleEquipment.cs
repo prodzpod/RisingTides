@@ -226,7 +226,7 @@ namespace RisingTides.Equipment
                     origin = characterBody.corePosition,
                     target = targetHurtBox,
                     attacker = characterBody.gameObject,
-                    damageValue = damageStat * detonationDamagePerMark * buffCount,
+                    damageValue = damageStat * (detonationDamagePerMark / 100f) * buffCount,
                     damageColorIndex = DamageColorIndex.Default,
                     isCrit = isCrit,
                     procChainMask = default,
