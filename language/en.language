@@ -13,7 +13,7 @@
     "EQUIPMENT_RISINGTIDES_AFFIXBARRIER_PICKUP": "Become an aspect of unity. On use, gain barrier.",
 
     "EQUIPMENT_RISINGTIDES_AFFIXIMPPLANE_NAME": "Collision of Dimensions",
-    "EQUIPMENT_RISINGTIDES_AFFIXIMPPLANE_PICKUP": "Become an aspect of extrinsicality.",
+    "EQUIPMENT_RISINGTIDES_AFFIXIMPPLANE_PICKUP": "Become an aspect of extrinsicality. On use, gain temporary immunity to all damage-over-time effects.",
 
     "EQUIPMENT_RISINGTIDES_AFFIXBLACKHOLE_NAME": "Another Mind",
     "EQUIPMENT_RISINGTIDES_AFFIXBLACKHOLE_PICKUP": "Become an aspect of invasion. On use, fire a homing attack at all marked enemies.",

@@ -243,6 +243,9 @@ namespace RisingTides
             public static BuffDef RisingTides_AffixNight;
             public static BuffDef RisingTides_NightSpeedBoost;
             public static BuffDef RisingTides_NightReducedVision;
+            public static BuffDef RisingTides_AffixImpPlane;
+            public static BuffDef RisingTides_ImpPlaneScar;
+            public static BuffDef RisingTides_ImpPlaneDotImmunity;
         }
 
         public static class Elites
@@ -252,6 +255,7 @@ namespace RisingTides
             public static EliteDef RisingTides_BlackHole;
             public static EliteDef RisingTides_Money;
             public static EliteDef RisingTides_Night;
+            public static EliteDef RisingTides_ImpPlane;
         }
 
         public static class Equipment
@@ -261,6 +265,7 @@ namespace RisingTides
             public static EquipmentDef RisingTides_AffixBlackHole;
             public static EquipmentDef RisingTides_AffixMoney;
             public static EquipmentDef RisingTides_AffixNight;
+            public static EquipmentDef RisingTides_AffixImpPlane;
         }
     }
 }
