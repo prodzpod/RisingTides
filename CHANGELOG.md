@@ -1,3 +1,7 @@
+## 1.1.0
+* Added Realgar elites
+* Fixed Onyx's on-use detonation dealing 100x more damage than it should
+* Fixed some of Onyx's on-use detonation effects appearing only for the host
 ## 1.0.2
 * Added a new Enabled Elites config section
 ## 1.0.1
