@@ -114,13 +114,20 @@ namespace RisingTides.Equipment
             });
         }
 
-		public override bool OnUse(EquipmentSlot equipmentSlot)
+        public override void OnUseClient(EquipmentSlot equipmentSlot)
         {
+            base.OnUseClient(equipmentSlot);
             if (equipmentSlot.characterBody)
             {
                 EffectManager.SimpleImpactEffect(EntityStates.GlobalSkills.LunarDetonator.Detonate.enterEffectPrefab, equipmentSlot.characterBody.corePosition, Vector3.up, false);
                 Util.PlaySound(EntityStates.GlobalSkills.LunarDetonator.Detonate.enterSoundString, equipmentSlot.gameObject);
+            }
+        }
 
+        public override bool OnUse(EquipmentSlot equipmentSlot)
+        {
+            if (equipmentSlot.characterBody)
+            {
                 var bullseyeSearch = new BullseyeSearch();
                 bullseyeSearch.filterByDistinctEntity = true;
                 bullseyeSearch.filterByLoS = false;
