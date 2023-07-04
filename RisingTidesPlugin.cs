@@ -74,7 +74,7 @@ namespace RisingTides
                     iconTexture.LoadImage(System.IO.File.ReadAllBytes(iconPath));
                     iconSprite = Sprite.Create(iconTexture, new Rect(0, 0, iconTexture.width, iconTexture.height), new Vector2(0, 0), 100);
                 }
-                MysticsRisky2Utils.SoftDependencies.SoftDependencyManager.RiskOfOptionsDependency.RegisterModInfo(PluginGUID, PluginName, "???", iconSprite);
+                MysticsRisky2Utils.SoftDependencies.SoftDependencyManager.RiskOfOptionsDependency.RegisterModInfo(PluginGUID, PluginName, "New elites and a new enemy!", iconSprite);
             }
 
             ignoreBalanceChanges = ConfigOptions.ConfigurableValue.CreateBool(PluginGUID, PluginName, config, "General", "Ignore Balance Changes", true, "If true, most of the numerical balance-related config options will be ignored and will use recommended default values. These are usually the values that might get tweaked often during mod updates.");
