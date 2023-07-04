@@ -62,7 +62,12 @@ namespace RisingTides.Elites
         public override void AfterContentPackLoaded()
         {
             base.AfterContentPackLoaded();
-            eliteDef.eliteEquipmentDef = RisingTidesContent.Equipment.RisingTides_AffixBlackHole;
+            ConfigOptions.ConfigurableValue.CreateBool(
+                RisingTidesPlugin.PluginGUID, RisingTidesPlugin.PluginName, RisingTidesPlugin.config,
+                "Enabled Elites", "Onyx",
+                true,
+                onChanged: (newValue) => eliteDef.eliteEquipmentDef = newValue ? RisingTidesContent.Equipment.RisingTides_AffixBlackHole : null
+            );
         }
     }
 }

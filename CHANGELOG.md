@@ -1,3 +1,5 @@
+## 1.0.2
+* Added a new Enabled Elites config section
 ## 1.0.1
 * Added a config
 * The elites now deal the same damage as vanilla ones, respective to their tiers

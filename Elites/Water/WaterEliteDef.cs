@@ -48,7 +48,12 @@ namespace RisingTides.Elites
         public override void AfterContentPackLoaded()
         {
             base.AfterContentPackLoaded();
-            eliteDef.eliteEquipmentDef = RisingTidesContent.Equipment.RisingTides_AffixWater;
+            ConfigOptions.ConfigurableValue.CreateBool(
+                RisingTidesPlugin.PluginGUID, RisingTidesPlugin.PluginName, RisingTidesPlugin.config,
+                "Enabled Elites", "Aquamarine",
+                true,
+                onChanged: (newValue) => eliteDef.eliteEquipmentDef = newValue ? RisingTidesContent.Equipment.RisingTides_AffixWater : null
+            );
         }
     }
 }

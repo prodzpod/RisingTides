@@ -34,7 +34,12 @@ namespace RisingTides.Elites
         public override void AfterContentPackLoaded()
         {
             base.AfterContentPackLoaded();
-            eliteDef.eliteEquipmentDef = RisingTidesContent.Equipment.RisingTides_AffixNight;
+            ConfigOptions.ConfigurableValue.CreateBool(
+                RisingTidesPlugin.PluginGUID, RisingTidesPlugin.PluginName, RisingTidesPlugin.config,
+                "Enabled Elites", "Nocturnal",
+                true,
+                onChanged: (newValue) => eliteDef.eliteEquipmentDef = newValue ? RisingTidesContent.Equipment.RisingTides_AffixNight : null
+            );
         }
     }
 }
