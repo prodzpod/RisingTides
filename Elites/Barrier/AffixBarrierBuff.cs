@@ -108,7 +108,7 @@ namespace RisingTides.Buffs
 
 		private void GenericGameEvents_OnApplyDamageReductionModifiers(DamageInfo damageInfo, MysticsRisky2UtilsPlugin.GenericCharacterInfo attackerInfo, MysticsRisky2UtilsPlugin.GenericCharacterInfo victimInfo, ref float damage)
 		{
-			if (victimInfo.body && victimInfo.body.HasBuff(buffDef))
+			if (victimInfo.body && victimInfo.body.HasBuff(buffDef) && victimInfo.healthComponent && victimInfo.healthComponent.barrier > 0f)
 			{
 				damage *= 1f - barrierDamageResistance / 100f;
 			}
