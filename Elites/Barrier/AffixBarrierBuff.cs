@@ -76,6 +76,8 @@ namespace RisingTides.Buffs
             On.RoR2.CharacterBody.OnBuffFinalStackLost += CharacterBody_OnBuffFinalStackLost;
 			barrierBarSprite = RisingTidesPlugin.AssetBundle.LoadAsset<Sprite>("Assets/Mods/RisingTides/Elites/Barrier/texAffixBarrierBarRecolor.png");
 			On.RoR2.UI.HealthBar.UpdateBarInfos += HealthBar_UpdateBarInfos;
+
+            IL.RoR2.HealthComponent.TakeDamage += HealthComponent_TakeDamage;
 			
 			GenericGameEvents.OnHitEnemy += GenericGameEvents_OnHitEnemy;
 
@@ -176,6 +178,30 @@ namespace RisingTides.Buffs
 				barrierBarStyle.color = Color.white;
 				barrierBarStyle.sprite = barrierBarSprite;
 				barrierBarStyle.sizeDelta += 2f;
+			}
+		}
+
+		private void HealthComponent_TakeDamage(ILContext il)
+		{
+			ILCursor c = new ILCursor(il);
+
+			if (c.TryGotoNext(
+				MoveType.After,
+				x => x.MatchLdsfld(typeof(DLC1Content.Items), nameof(DLC1Content.Items.ExplodeOnDeathVoid))
+			) && c.TryGotoNext(
+				MoveType.After,
+				x => x.MatchCallOrCallvirt(typeof(Inventory), nameof(Inventory.GetItemCount))
+			))
+			{
+				c.Emit(OpCodes.Ldarg, 0);
+				c.EmitDelegate<System.Func<int, HealthComponent, int>>((explodeOnDeathVoidItemCount, hc) =>
+				{
+					if (hc.body && hc.body.HasBuff(buffDef))
+					{
+						return 0;
+					}
+					return explodeOnDeathVoidItemCount;
+				});
 			}
 		}
 
