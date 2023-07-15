@@ -1,3 +1,13 @@
+## 1.1.2
+* Fixed Nocturnal crown having collision
+* Potentially fixed Mother Mushrum spores not moving for clients in co-op
+* Fixed Voidsent Flame repeatedly triggering on Bismuth elites until they lose barrier
+## 1.1.1
+* Increased Mother Mushrum's base health to compensate for its stationary behaviour
+* Becoming a Bismuth elite now always refills barrier, instead of having your barrier filled only once per stage
+	* This should make stealing this effect with Wake of Vultures less harmful
+* Fixed Bismuth reducing taken damage even without barrier
+* Added a few failsafes for Aquamarine enemies to become vulnerable to avoid permanently unkillable Hordes of Many
 ## 1.1.0
 * Added Realgar elites
 * Fixed Onyx's on-use detonation dealing 100x more damage than it should

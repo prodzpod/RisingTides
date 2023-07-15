@@ -31,7 +31,7 @@ namespace RisingTides
     {
         public const string PluginGUID = "com.themysticsword.risingtides";
         public const string PluginName = "Rising Tides";
-        public const string PluginVersion = "1.1.0";
+        public const string PluginVersion = "1.1.2";
 
         public static System.Reflection.Assembly executingAssembly;
         internal static System.Type declaringType;
@@ -235,7 +235,7 @@ namespace RisingTides
             public static BuffDef RisingTides_WaterInvincibility;
             public static BuffDef RisingTides_WaterBubbleTrapCooldown;
             public static BuffDef RisingTides_AffixBarrier;
-            public static BuffDef RisingTides_OneTimeMaxBarrierGained;
+            public static BuffDef RisingTides_MaxBarrierGained;
             public static BuffDef RisingTides_AffixBlackHole;
             public static BuffDef RisingTides_AffectedByVoidFreeze;
             public static BuffDef RisingTides_BlackHoleMark;
