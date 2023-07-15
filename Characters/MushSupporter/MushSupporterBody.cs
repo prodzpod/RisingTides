@@ -314,7 +314,7 @@ namespace RisingTides.CharacterBodies
             Utils.CopyChildren(RisingTidesPlugin.AssetBundle.LoadAsset<GameObject>("Assets/Mods/RisingTides/Characters/MushSupporter/SporeProjectile.prefab"), sporeProjectile);
             var projectileController = sporeProjectile.AddComponent<ProjectileController>();
             projectileController.ghostPrefab = sporeGhost;
-            projectileController.allowPrediction = true;
+            projectileController.allowPrediction = false;
             projectileController.procCoefficient = 0.4f;
             sporeProjectile.AddComponent<ProjectileNetworkTransform>();
             sporeProjectile.AddComponent<TeamFilter>();
@@ -565,26 +565,23 @@ namespace RisingTides.CharacterBodies
             public override void FixedUpdate()
             {
                 base.FixedUpdate();
-                if (isAuthority)
+                if (fixedAge >= emissionDelay && fixedAge < emissionDelay + emissionDuration)
                 {
-                    if (fixedAge >= emissionDelay && fixedAge < emissionDelay + emissionDuration)
+                    if (!emissionStarted)
                     {
-                        if (!emissionStarted)
-                        {
-                            emissionStarted = true;
-                            Util.PlayAttackSpeedSound("Play_minimushroom_spore_explode", gameObject, attackSpeedStat);
-                        }
-                        emissionAccumulator += emissionRate * Time.fixedDeltaTime;
+                        emissionStarted = true;
+                        Util.PlayAttackSpeedSound("Play_minimushroom_spore_explode", gameObject, attackSpeedStat);
                     }
-                    while (emissionAccumulator >= 1f)
-                    {
-                        emissionAccumulator -= 1f;
-                        EmitSpore();
-                    }
-                    if (fixedAge >= duration)
-                    {
-                        outer.SetNextStateToMain();
-                    }
+                    emissionAccumulator += emissionRate * Time.fixedDeltaTime;
+                }
+                while (emissionAccumulator >= 1f)
+                {
+                    emissionAccumulator -= 1f;
+                    if (isAuthority) EmitSpore();
+                }
+                if (fixedAge >= duration && isAuthority)
+                {
+                    outer.SetNextStateToMain();
                 }
             }
 
