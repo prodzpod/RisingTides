@@ -2,12 +2,12 @@ using MysticsRisky2Utils.BaseAssetTypes;
 
 namespace RisingTides.Buffs
 {
-    public class OneTimeMaxBarrierGained : BaseBuff
+    public class MaxBarrierGained : BaseBuff
     {
 		public override void OnLoad()
 		{
 			base.OnLoad();
-			buffDef.name = "RisingTides_OneTimeMaxBarrierGained";
+			buffDef.name = "RisingTides_MaxBarrierGained";
 			buffDef.isHidden = true;
 		}
 	}

@@ -73,6 +73,7 @@ namespace RisingTides.Buffs
             GenericGameEvents.OnApplyDamageReductionModifiers += GenericGameEvents_OnApplyDamageReductionModifiers;
 			On.RoR2.CharacterBody.RecalculateStats += CharacterBody_RecalculateStats;
 			IL.RoR2.CharacterBody.RecalculateStats += CharacterBody_RecalculateStats1;
+            On.RoR2.CharacterBody.OnBuffFinalStackLost += CharacterBody_OnBuffFinalStackLost;
 			barrierBarSprite = RisingTidesPlugin.AssetBundle.LoadAsset<Sprite>("Assets/Mods/RisingTides/Elites/Barrier/texAffixBarrierBarRecolor.png");
 			On.RoR2.UI.HealthBar.UpdateBarInfos += HealthBar_UpdateBarInfos;
 			
@@ -119,14 +120,14 @@ namespace RisingTides.Buffs
 			if (self.HasBuff(buffDef))
 			{
 				self.barrierDecayRate *= barrierDecayRate / 100f;
-				if (NetworkServer.active && !self.HasBuff(RisingTidesContent.Buffs.RisingTides_OneTimeMaxBarrierGained))
+				if (NetworkServer.active && !self.HasBuff(RisingTidesContent.Buffs.RisingTides_MaxBarrierGained))
                 {
 					var spawnBarrier = self.maxBarrier * (startingBarrier / 100f);
 					if (self.healthComponent && self.healthComponent.barrier < spawnBarrier)
 					{
 						self.healthComponent.Networkbarrier = spawnBarrier;
 					}
-					self.AddBuff(RisingTidesContent.Buffs.RisingTides_OneTimeMaxBarrierGained);
+					self.AddBuff(RisingTidesContent.Buffs.RisingTides_MaxBarrierGained);
 				}
 			}
 		}
@@ -149,6 +150,15 @@ namespace RisingTides.Buffs
 					}
 				});
 			}
+		}
+
+		private void CharacterBody_OnBuffFinalStackLost(On.RoR2.CharacterBody.orig_OnBuffFinalStackLost orig, CharacterBody self, BuffDef buffDef)
+		{
+			orig(self, buffDef);
+			if (NetworkServer.active && buffDef == this.buffDef && self.HasBuff(RisingTidesContent.Buffs.RisingTides_MaxBarrierGained))
+            {
+				self.RemoveBuff(RisingTidesContent.Buffs.RisingTides_MaxBarrierGained);
+            }
 		}
 
 		private void HealthBar_UpdateBarInfos(On.RoR2.UI.HealthBar.orig_UpdateBarInfos orig, RoR2.UI.HealthBar self)
