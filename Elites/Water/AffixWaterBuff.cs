@@ -271,6 +271,8 @@ namespace RisingTides.Buffs
 			public SkillLocator skillLocator;
 			public float vulnerableTimer = 0f;
 			public float vulnerableDuration = 0.2f;
+			public float failsafeVulnerabilityForceTimer = 0f;
+			public float failsafeVulnerabilityForceThreshold = 30f;
 
 			public void Awake()
 			{
@@ -280,6 +282,9 @@ namespace RisingTides.Buffs
 
 			public void FixedUpdate()
 			{
+				failsafeVulnerabilityForceTimer += Time.fixedDeltaTime;
+				var failsafeVulnerabilityForced = false;
+
 				var usingAnySkill = false;
 				if (skillLocator)
 				{
@@ -287,15 +292,22 @@ namespace RisingTides.Buffs
 					else if (skillLocator.secondary && !skillLocator.secondary.stateMachine.IsInMainState()) usingAnySkill = true;
 					else if (skillLocator.utility && !skillLocator.utility.stateMachine.IsInMainState()) usingAnySkill = true;
 					else if (skillLocator.special && !skillLocator.special.stateMachine.IsInMainState()) usingAnySkill = true;
+					else if (!skillLocator.primary && !skillLocator.secondary && !skillLocator.utility && !skillLocator.special)
+                    {
+						failsafeVulnerabilityForced = true;
+					}
 				}
+
+				if (usingAnySkill) failsafeVulnerabilityForceTimer = 0f;
+				if (failsafeVulnerabilityForceTimer >= failsafeVulnerabilityForceThreshold && !body.isPlayerControlled) failsafeVulnerabilityForced = true;
 
 				if (vulnerableTimer <= 0f)
 				{
-					if (!usingAnySkill && !body.HasBuff(RisingTidesContent.Buffs.RisingTides_WaterInvincibility))
+					if (!usingAnySkill && !failsafeVulnerabilityForced && !body.HasBuff(RisingTidesContent.Buffs.RisingTides_WaterInvincibility))
 					{
 						body.AddBuff(RisingTidesContent.Buffs.RisingTides_WaterInvincibility);
 					}
-					else if (usingAnySkill && body.HasBuff(RisingTidesContent.Buffs.RisingTides_WaterInvincibility))
+					else if ((usingAnySkill || failsafeVulnerabilityForced) && body.HasBuff(RisingTidesContent.Buffs.RisingTides_WaterInvincibility))
 					{
 						body.RemoveBuff(RisingTidesContent.Buffs.RisingTides_WaterInvincibility);
 						vulnerableTimer = vulnerableDuration;
@@ -303,7 +315,7 @@ namespace RisingTides.Buffs
                 }
                 else
                 {
-					if (!usingAnySkill) vulnerableTimer -= Time.fixedDeltaTime;
+					if (!usingAnySkill && !failsafeVulnerabilityForced) vulnerableTimer -= Time.fixedDeltaTime;
 				}
 			}
 
