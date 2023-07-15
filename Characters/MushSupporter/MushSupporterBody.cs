@@ -66,7 +66,7 @@ namespace RisingTides.CharacterBodies
             // body
             var characterBody = prefab.GetComponent<CharacterBody>();
             characterBody.bodyFlags = CharacterBody.BodyFlags.HasBackstabImmunity;
-            characterBody.baseMaxHealth = 400f;
+            characterBody.baseMaxHealth = 680f;
             characterBody.baseRegen = 0f;
             characterBody.baseMaxShield = 0f;
             characterBody.baseMoveSpeed = 0f;
