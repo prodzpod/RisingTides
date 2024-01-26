@@ -304,6 +304,7 @@ namespace RisingTides.CharacterBodies
                 AddDisplayRule(RisingTidesContent.Equipment.RisingTides_AffixBlackHole, BaseEquipment.loadedDictionary["RisingTides_AffixBlackHole"].itemDisplayPrefab, "Cap", new Vector3(0F, 0.04332F, 0.26297F), new Vector3(-0.00001F, 180F, 180F), new Vector3(0.08568F, 0.08568F, 0.08568F));
                 AddDisplayRule(RisingTidesContent.Equipment.RisingTides_AffixMoney, BaseEquipment.loadedDictionary["RisingTides_AffixMoney"].itemDisplayPrefab, "ROOT", new Vector3(0F, 0.65479F, 0F), new Vector3(90F, 0F, 0F), new Vector3(0.01971F, 0.01971F, 0.01971F));
                 AddDisplayRule(RisingTidesContent.Equipment.RisingTides_AffixNight, BaseEquipment.loadedDictionary["RisingTides_AffixNight"].itemDisplayPrefab, "ROOT", new Vector3(0F, 0.70491F, 0F), new Vector3(90F, 0F, 0F), new Vector3(0.0278F, 0.0278F, 0.0278F));
+                AddDisplayRule(RisingTidesContent.Equipment.RisingTides_AffixMirror, BaseEquipment.loadedDictionary["RisingTides_AffixMirror"].itemDisplayPrefab, "ROOT", new Vector3(0F, 0.69753F, 0F), new Vector3(90F, 0F, 0F), new Vector3(0.01971F, 0.01971F, 0.01971F));
             };
 
 
