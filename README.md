@@ -22,3 +22,5 @@ Despite its stationary behaviour, getting too far away will make the Mother Mush
 # Credits
 TheMysticSword - Coding  
 Marwan60 - Mother Mushrum idea, model and animations; Aquamarine and Onyx elite ideas
+### Translations
+Brazilian Portuguese - Kauzok
