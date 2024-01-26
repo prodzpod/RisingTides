@@ -1,0 +1,38 @@
+{
+  "pt-BR": {
+    "EQUIPMENT_RISINGTIDES_AFFIXMONEY_NAME": "Ira da Rocha",
+    "EQUIPMENT_RISINGTIDES_AFFIXMONEY_PICKUP": "Torne-se um aspecto da polaridade. Ao usar, interrompe todos os projéteis por alguns segundos.",
+
+    "EQUIPMENT_RISINGTIDES_AFFIXNIGHT_NAME": "Absência do Baluarte",
+    "EQUIPMENT_RISINGTIDES_AFFIXNIGHT_PICKUP": "Torne-se um aspecto da escuridão. Ao usar, ganhe invisibilidade temporária.",
+
+    "EQUIPMENT_RISINGTIDES_AFFIXWATER_NAME": "Primeiro Avistamento do Painho Tempestuoso",
+    "EQUIPMENT_RISINGTIDES_AFFIXWATER_PICKUP": "Torne-se um aspecto da alterabilidade. Ao usar, purifica todas as penalidades e regenera uma quantidade de saúde.",
+
+    "EQUIPMENT_RISINGTIDES_AFFIXBARRIER_NAME": "Esforços Combinados",
+    "EQUIPMENT_RISINGTIDES_AFFIXBARRIER_PICKUP": "Torne-se um aspecto da unidade. Ao usar, ganhe barreira.",
+
+    "EQUIPMENT_RISINGTIDES_AFFIXIMPPLANE_NAME": "Colisão de Dimensões",
+    "EQUIPMENT_RISINGTIDES_AFFIXIMPPLANE_PICKUP": "Torne-se um aspecto da extrasincalidade. Ao usar, ganhe temporariamente imunidade a todos os efeitos que causem dano por segundo.",
+
+    "EQUIPMENT_RISINGTIDES_AFFIXBLACKHOLE_NAME": "Outra Mente",
+    "EQUIPMENT_RISINGTIDES_AFFIXBLACKHOLE_PICKUP": "Torne-se um aspecto da invasão. Ao usar, atire um ataque teleguiado em todos os inimigos marcados.",
+
+    "EQUIPMENT_RISINGTIDES_AFFIXMIRROR_NAME": "Salão de Espelhos",
+    "EQUIPMENT_RISINGTIDES_AFFIXMIRROR_PICKUP": "Torne-se um aspecto da ilusão.",
+
+    "ELITE_MODIFIER_RISINGTIDES_MONEY": "{0} Magnético",
+    "ELITE_MODIFIER_RISINGTIDES_NIGHT": "{0} Noturno",
+    "ELITE_MODIFIER_RISINGTIDES_WATER": "{0} Aquamarinho",
+    "ELITE_MODIFIER_RISINGTIDES_BARRIER": "{0} Bismuto",
+    "ELITE_MODIFIER_RISINGTIDES_IMPPLANE": "{0} de Realgar",
+    "ELITE_MODIFIER_RISINGTIDES_BLACKHOLE": "{0} de Ónix",
+    "ELITE_MODIFIER_RISINGTIDES_MIRROR": "{0} de Fenaquita",
+
+    "RISINGTIDES_MUSHSUPPORTER_BODY_NAME": "Matriarca Fungo Vibrante",
+
+    "UNLOCKABLE_LOG_RISINGTIDES_MUSHSUPPORTER": "Registro de Monstro: Matriarca Fungo Vibrante",
+
+    "RISINGTIDES_WATERBUBBLE_VEHICLE_EXIT_CONTEXT": "Escape!"
+  }
+}
