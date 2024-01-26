@@ -1,3 +1,7 @@
+## 1.2.0
+* Added a new Tier 2 Phenakite elite
+* Increased Mother Mushrum spore damage
+* Added Brazilian Portuguese translation by Kauzok
 ## 1.1.2
 * Fixed Nocturnal crown having collision
 * Potentially fixed Mother Mushrum spores not moving for clients in co-op
