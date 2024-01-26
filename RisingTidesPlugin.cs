@@ -23,6 +23,7 @@ namespace RisingTides
     [BepInDependency(R2API.Networking.NetworkingAPI.PluginGUID)]
     [BepInDependency(PrefabAPI.PluginGUID)]
     [BepInDependency(RecalculateStatsAPI.PluginGUID)]
+    [BepInDependency(DeployableAPI.PluginGUID)]
     [BepInDependency(MysticsRisky2UtilsPlugin.PluginGUID)]
     [BepInDependency(MysticsItems.MysticsItemsPlugin.PluginGUID, BepInDependency.DependencyFlags.SoftDependency)]
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
@@ -31,7 +32,7 @@ namespace RisingTides
     {
         public const string PluginGUID = "com.themysticsword.risingtides";
         public const string PluginName = "Rising Tides";
-        public const string PluginVersion = "1.1.2";
+        public const string PluginVersion = "1.2.0";
 
         public static System.Reflection.Assembly executingAssembly;
         internal static System.Type declaringType;
@@ -226,7 +227,7 @@ namespace RisingTides
 
         public static class Items
         {
-
+            public static ItemDef RisingTides_MirrorClone;
         }
 
         public static class Buffs
@@ -246,6 +247,7 @@ namespace RisingTides
             public static BuffDef RisingTides_AffixImpPlane;
             public static BuffDef RisingTides_ImpPlaneScar;
             public static BuffDef RisingTides_ImpPlaneDotImmunity;
+            public static BuffDef RisingTides_AffixMirror;
         }
 
         public static class Elites
@@ -256,6 +258,7 @@ namespace RisingTides
             public static EliteDef RisingTides_Money;
             public static EliteDef RisingTides_Night;
             public static EliteDef RisingTides_ImpPlane;
+            public static EliteDef RisingTides_Mirror;
         }
 
         public static class Equipment
@@ -266,6 +269,7 @@ namespace RisingTides
             public static EquipmentDef RisingTides_AffixMoney;
             public static EquipmentDef RisingTides_AffixNight;
             public static EquipmentDef RisingTides_AffixImpPlane;
+            public static EquipmentDef RisingTides_AffixMirror;
         }
     }
 }

@@ -19,7 +19,7 @@
     "EQUIPMENT_RISINGTIDES_AFFIXBLACKHOLE_PICKUP": "Станьте воплощением вторжения. Выстрелите самонаводящимся снарядом во всех помеченных врагов при использовании.",
 
     "EQUIPMENT_RISINGTIDES_AFFIXMIRROR_NAME": "Зеркальный зал",
-    "EQUIPMENT_RISINGTIDES_AFFIXMIRROR_PICKUP": "Станьте воплощением иллюзии.",
+    "EQUIPMENT_RISINGTIDES_AFFIXMIRROR_PICKUP": "Станьте воплощением иллюзии. Станьте невидимыми и получите скорость на некоторое время при использовании.",
 
     "ELITE_MODIFIER_RISINGTIDES_MONEY": "Магнитн. {0}",
     "ELITE_MODIFIER_RISINGTIDES_NIGHT": "Ночн. {0}",
@@ -33,6 +33,7 @@
 
     "UNLOCKABLE_LOG_RISINGTIDES_MUSHSUPPORTER": "Запись о монстре: Мама-гриб",
 
-    "RISINGTIDES_WATERBUBBLE_VEHICLE_EXIT_CONTEXT": "Выбраться!"
+    "RISINGTIDES_WATERBUBBLE_VEHICLE_EXIT_CONTEXT": "Выбраться!",
+    "RISINGTIDES_AFFIXMIRROR_OBSCURED_NAME": "???"
   }
 }

@@ -19,7 +19,7 @@
     "EQUIPMENT_RISINGTIDES_AFFIXBLACKHOLE_PICKUP": "Become an aspect of invasion. On use, fire a homing attack at all marked enemies.",
 
     "EQUIPMENT_RISINGTIDES_AFFIXMIRROR_NAME": "Hall of Mirrors",
-    "EQUIPMENT_RISINGTIDES_AFFIXMIRROR_PICKUP": "Become an aspect of illusion.",
+    "EQUIPMENT_RISINGTIDES_AFFIXMIRROR_PICKUP": "Become an aspect of illusion. On use, gain temporary invisibility and speed.",
 
     "ELITE_MODIFIER_RISINGTIDES_MONEY": "Magnetic {0}",
     "ELITE_MODIFIER_RISINGTIDES_NIGHT": "Nocturnal {0}",
@@ -33,6 +33,7 @@
 
     "UNLOCKABLE_LOG_RISINGTIDES_MUSHSUPPORTER": "Monster Log: Mother Mushrum",
 
-    "RISINGTIDES_WATERBUBBLE_VEHICLE_EXIT_CONTEXT": "Break out!"
+    "RISINGTIDES_WATERBUBBLE_VEHICLE_EXIT_CONTEXT": "Break out!",
+    "RISINGTIDES_AFFIXMIRROR_OBSCURED_NAME": "???"
   }
 }

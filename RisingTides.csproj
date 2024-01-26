@@ -24,6 +24,7 @@
     <PackageReference Include="R2API.Sound" Version="1.0.2" />
     <PackageReference Include="R2API.DamageType" Version="1.0.4" />
     <PackageReference Include="R2API.Dot" Version="1.0.1" />
+    <PackageReference Include="R2API.Deployable " Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
