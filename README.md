@@ -2,7 +2,7 @@
 *New threats are on the horizon! Do you have what it takes to turn the tide?*
 
 ## New Elites
-![Magnetic and Nocturnal elites](https://files.catbox.moe/dxycrt.png)  
+![Magnetic and Nocturnal elites](https://i.imgur.com/6myoXYY.png)  
   
 Watch out for your life... and your pockets!  
 **Magnetic** elites will drain your gold if you get too close to them, and drop only a portion of their money on death. Getting hit by one will send you straight down if you're mid-air! 
@@ -10,10 +10,10 @@ Meanwhile, **Nocturnal** elites, chasing like a shadow if left unharmed, will bl
 
 And that's not the end of it all - once you enter the first loop of your journey, **Aquamarine, Bismuth, Onyx and Realgar** elites will step in to try to stop you!  
   
-![Loop elites](https://files.catbox.moe/aspbo0.png)  
+![Some of the loop elites](https://i.imgur.com/NRtK8BF.png)  
 
 ## New Enemy
-![Two Mother Mushrums](https://files.catbox.moe/rgwgij.png)  
+![Two Mother Mushrums](https://i.imgur.com/9kx52hg.png)  
   
 An addition to the Mushrum family - the **Mother Mushrum**!  
 This enemy periodically emits little spores, dealing damage on contact with players and allies... and healing targets on contact with enemies!  
