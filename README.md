@@ -5,7 +5,7 @@
 ![Magnetic and Nocturnal elites](https://i.imgur.com/6myoXYY.png)  
   
 Watch out for your life... and your pockets!  
-**Magnetic** elites will drain your gold if you get too close to them, and drop only a portion of their money on death. Getting hit by one will send you straight down if you're mid-air! 
+**Magnetic** elites will drain your gold if you get too close to them, and drop only a portion of their money on death. Getting hit by one will send you straight down if you're mid-air!  
 Meanwhile, **Nocturnal** elites, chasing like a shadow if left unharmed, will blind you on hit.  
 
 And that's not the end of it all - once you enter the first loop of your journey, **Aquamarine, Bismuth, Onyx, Realgar and Phenakite** elites will step in to try to stop you!  
