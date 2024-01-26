@@ -537,7 +537,7 @@ namespace RisingTides.CharacterBodies
             public static float baseEmissionDuration = 1f;
             public static float minSpread = 60f;
             public static float maxSpread = 90f;
-            public static float damageCoefficient = 0.4f;
+            public static float damageCoefficient = 1f;
 
             public static string muzzleName = "Cap";
 
