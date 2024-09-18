@@ -32,7 +32,7 @@ namespace RisingTides.CharacterBodies
 
             modelBaseTransform = prefab.transform.Find("ModelBase");
             modelTransform = prefab.transform.Find("ModelBase/mdlMushSupporter");
-            meshObject = prefab.transform.Find("ModelBase/mdlMushSupporter/Öèëèíäð").gameObject;
+            meshObject = prefab.transform.Find("ModelBase/mdlMushSupporter/¬¸¬Ú¬Ý¬Ú¬ß¬Õ¬â").gameObject;
             Prepare();
 
             var mat = meshObject.GetComponent<SkinnedMeshRenderer>().sharedMaterial;
@@ -44,17 +44,17 @@ namespace RisingTides.CharacterBodies
                 new ChildLocator.NameTransformPair
                 {
                     name = "ROOT",
-                    transform = modelTransform.Find("Àðìàòóðà/ROOT")
+                    transform = modelTransform.Find("¬¡¬â¬Þ¬Ñ¬ä¬å¬â¬Ñ/ROOT")
                 },
                 new ChildLocator.NameTransformPair
                 {
                     name = "Cap",
-                    transform = modelTransform.Find("Àðìàòóðà/ROOT/øëÿïà")
+                    transform = modelTransform.Find("¬¡¬â¬Þ¬Ñ¬ä¬å¬â¬Ñ/ROOT/¬ê¬Ý¬ñ¬á¬Ñ")
                 },
                 new ChildLocator.NameTransformPair
                 {
                     name = "HealthBarOrigin",
-                    transform = modelTransform.Find("Àðìàòóðà/ROOT/øëÿïà/HealthBarOrigin")
+                    transform = modelTransform.Find("¬¡¬â¬Þ¬Ñ¬ä¬å¬â¬Ñ/ROOT/¬ê¬Ý¬ñ¬á¬Ñ/HealthBarOrigin")
                 }
             });
 
@@ -102,38 +102,38 @@ namespace RisingTides.CharacterBodies
             {
                 new HurtBoxSetUpInfo
                 {
-                    transform = modelTransform.Find("Àðìàòóðà/ROOT/HurtBox"),
+                    transform = modelTransform.Find("¬¡¬â¬Þ¬Ñ¬ä¬å¬â¬Ñ/ROOT/HurtBox"),
                     isBullseye = true,
                     isMain = true
                 },
                 new HurtBoxSetUpInfo
                 {
-                    transform = modelTransform.Find("Àðìàòóðà/ROOT/HurtBoxWeak1"),
+                    transform = modelTransform.Find("¬¡¬â¬Þ¬Ñ¬ä¬å¬â¬Ñ/ROOT/HurtBoxWeak1"),
                     isSniperTarget = true
                 },
                 new HurtBoxSetUpInfo
                 {
-                    transform = modelTransform.Find("Àðìàòóðà/ROOT/HurtBoxWeak2"),
+                    transform = modelTransform.Find("¬¡¬â¬Þ¬Ñ¬ä¬å¬â¬Ñ/ROOT/HurtBoxWeak2"),
                     isSniperTarget = true
                 },
                 new HurtBoxSetUpInfo
                 {
-                    transform = modelTransform.Find("Àðìàòóðà/ROOT/HurtBoxWeak3"),
+                    transform = modelTransform.Find("¬¡¬â¬Þ¬Ñ¬ä¬å¬â¬Ñ/ROOT/HurtBoxWeak3"),
                     isSniperTarget = true
                 },
                 new HurtBoxSetUpInfo
                 {
-                    transform = modelTransform.Find("Àðìàòóðà/ROOT/HurtBoxWeak4"),
+                    transform = modelTransform.Find("¬¡¬â¬Þ¬Ñ¬ä¬å¬â¬Ñ/ROOT/HurtBoxWeak4"),
                     isSniperTarget = true
                 },
                 new HurtBoxSetUpInfo
                 {
-                    transform = modelTransform.Find("Àðìàòóðà/ROOT/HurtBoxWeak5"),
+                    transform = modelTransform.Find("¬¡¬â¬Þ¬Ñ¬ä¬å¬â¬Ñ/ROOT/HurtBoxWeak5"),
                     isSniperTarget = true
                 },
                 new HurtBoxSetUpInfo
                 {
-                    transform = modelTransform.Find("Àðìàòóðà/ROOT/øëÿïà/HurtBox")
+                    transform = modelTransform.Find("¬¡¬â¬Þ¬Ñ¬ä¬å¬â¬Ñ/ROOT/¬ê¬Ý¬ñ¬á¬Ñ/HurtBox")
                 }
             });
 
@@ -498,7 +498,7 @@ namespace RisingTides.CharacterBodies
                 Util.PlaySound("Play_minimushroom_spawn", gameObject);
                 PlayAnimation("Body", "Spawn", "Spawn.playbackRate", duration);
                 if (burrowPrefab)
-                    EffectManager.SimpleMuzzleFlash(burrowPrefab, gameObject, "øëÿïà", false);
+                    EffectManager.SimpleMuzzleFlash(burrowPrefab, gameObject, "¬ê¬Ý¬ñ¬á¬Ñ", false);
             }
 
             public override void FixedUpdate()

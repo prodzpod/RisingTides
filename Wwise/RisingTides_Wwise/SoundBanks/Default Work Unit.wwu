@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E32A1CBB-9452-43CA-8B67-B7CF17E73502}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E32A1CBB-9452-43CA-8B67-B7CF17E73502}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="RisingTides" ID="{1590D356-AFEB-4C2B-B765-909D1C93E3CC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="RisingTides_Play_realgar_scar" ID="{9BAD0EA5-D4AC-418A-86FE-B4E021BEAEE5}" WorkUnitID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RisingTides_Play_elite_bismuth_spawn" ID="{28554972-89B7-44B3-A62A-D5A9944BC185}" WorkUnitID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RisingTides_Play_elite_phenakite_spawn" ID="{B53C4C91-AD83-44FC-AF11-FAE2A1850F4A}" WorkUnitID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RisingTides_Play_onyx_mark_explosion" ID="{2EE2B947-5478-475E-AD79-A27EDFD6008F}" WorkUnitID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RisingTides_Play_onyx_implosion" ID="{F4895D76-D0D9-4AA7-B9BC-CA32BA412418}" WorkUnitID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RisingTides_Play_elite_aquamarine_spawn" ID="{41489B59-15EC-4B8D-A223-CA9BD56B12E5}" WorkUnitID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RisingTides_Play_realgar_spawn" ID="{3F5D7BAB-DB6B-4CD0-AE7F-5AB814B29A03}" WorkUnitID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RisingTides_Play_onyx_implosion_buildup" ID="{BB5FB8A0-202C-4D54-8A13-FF2B1C75B07F}" WorkUnitID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RisingTides_Play_elite_onyx_spawn" ID="{7CF55F5A-6244-4E39-83EC-8AD91A6B9FF9}" WorkUnitID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

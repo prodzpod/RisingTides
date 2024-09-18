@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="RisingTides_Wwise" GUID="{D55605EB-BDC1-46A2-A41E-A8C93ECACABA}" Generator="2023.1.4.8496"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{C152BF8D-C411-4925-99AB-1B30A6DBEDF0}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{1D31ABFA-74F5-401C-B407-01784428D811}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{93AAA810-3288-251F-A909-63F2A42133B0}</FileHash>
+</ProjectInfo>

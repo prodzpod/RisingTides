@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{225D84D2-8BEF-4E70-BA87-0C68A8768DE6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="RisingTides_Play_realgar_spawn" ID="{3F5D7BAB-DB6B-4CD0-AE7F-5AB814B29A03}">
+					<ChildrenList>
+						<Action Name="" ID="{6844D93A-6576-4435-BE95-9C19C3CD8D22}" ShortID="470209610">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RisingTides_1" ID="{4C7C707C-F891-4023-88D2-E5819EBD1870}" WorkUnitID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RisingTides_Play_realgar_scar" ID="{9BAD0EA5-D4AC-418A-86FE-B4E021BEAEE5}">
+					<ChildrenList>
+						<Action Name="" ID="{34BAE559-68D3-48E2-80A9-EBC0B9AEE11D}" ShortID="262233982">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RisingTides_2" ID="{1F3F4941-D4E9-44DA-81B6-6E67CADAB507}" WorkUnitID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RisingTides_Play_elite_onyx_spawn" ID="{7CF55F5A-6244-4E39-83EC-8AD91A6B9FF9}">
+					<ChildrenList>
+						<Action Name="" ID="{09302809-63F3-4969-AFB7-71E995AF4BC6}" ShortID="241789594">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RisingTides_3" ID="{DEF49C5F-6B69-4E76-9F44-F5661EA4762E}" WorkUnitID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RisingTides_Play_onyx_mark_explosion" ID="{2EE2B947-5478-475E-AD79-A27EDFD6008F}">
+					<ChildrenList>
+						<Action Name="" ID="{5FFC62F3-DE71-44AD-9BC9-B2ACCBE09682}" ShortID="546927566">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RisingTides_4" ID="{73B58905-8E2B-4998-926E-7CCCA7B151E5}" WorkUnitID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RisingTides_Play_elite_bismuth_spawn" ID="{28554972-89B7-44B3-A62A-D5A9944BC185}">
+					<ChildrenList>
+						<Action Name="" ID="{BA7409B3-8C6C-4103-B28D-70A6CBF98FC8}" ShortID="365393218">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RisingTides_5" ID="{9D47F650-8F40-4BCD-92C9-D132759282CB}" WorkUnitID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RisingTides_Play_onyx_implosion" ID="{F4895D76-D0D9-4AA7-B9BC-CA32BA412418}">
+					<ChildrenList>
+						<Action Name="" ID="{9C8370EA-DA7D-4E40-B4FC-2A21919B6D95}" ShortID="66260176">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RisingTides_6" ID="{70074E57-B188-471E-B916-D9AEB55CF092}" WorkUnitID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RisingTides_Play_elite_phenakite_spawn" ID="{B53C4C91-AD83-44FC-AF11-FAE2A1850F4A}">
+					<ChildrenList>
+						<Action Name="" ID="{FE0F1AFF-9E85-4BA4-A20B-E7E622D10F83}" ShortID="690807393">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RisingTides_7" ID="{A908D306-E6EC-431B-93D7-5F757EE32747}" WorkUnitID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RisingTides_Play_onyx_implosion_buildup" ID="{BB5FB8A0-202C-4D54-8A13-FF2B1C75B07F}">
+					<ChildrenList>
+						<Action Name="" ID="{F17FD896-B3C9-4183-AA40-49B32CFED3C4}" ShortID="1059989914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RisingTides_8" ID="{CF202A6E-6672-4273-AE74-0A7FD8DDBFA2}" WorkUnitID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RisingTides_Play_elite_aquamarine_spawn" ID="{41489B59-15EC-4B8D-A223-CA9BD56B12E5}">
+					<ChildrenList>
+						<Action Name="" ID="{5EA8AF77-6AF5-4108-8B6F-4F6AF4186F9E}" ShortID="226680329">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RisingTides_9" ID="{920D7845-7412-4B01-B3A0-F1E0F2A04427}" WorkUnitID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

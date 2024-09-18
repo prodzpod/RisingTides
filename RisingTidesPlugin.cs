@@ -32,7 +32,7 @@ namespace RisingTides
     {
         public const string PluginGUID = "com.themysticsword.risingtides";
         public const string PluginName = "Rising Tides";
-        public const string PluginVersion = "1.2.0";
+        public const string PluginVersion = "1.2.1";
 
         public static System.Reflection.Assembly executingAssembly;
         internal static System.Type declaringType;
@@ -63,7 +63,7 @@ namespace RisingTides
             executingAssembly = System.Reflection.Assembly.GetExecutingAssembly();
             declaringType = System.Reflection.MethodBase.GetCurrentMethod().DeclaringType;
 
-            SoundAPI.SoundBanks.Add(System.IO.File.ReadAllBytes(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(pluginInfo.Location), "RisingTidesSoundbank.bnk")));
+            // SoundAPI.SoundBanks.Add(System.IO.File.ReadAllBytes(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(pluginInfo.Location), "RisingTidesSoundbank.bnk")));
 
             if (MysticsRisky2Utils.SoftDependencies.SoftDependencyManager.RiskOfOptionsDependency.enabled)
             {

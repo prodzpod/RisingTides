@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B9AAC13F-AA21-4192-B473-1C8BC4FA46F2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="RisingTides_4" ID="{73B58905-8E2B-4998-926E-7CCCA7B151E5}" ShortID="277707979">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B6BCC4-C827-43E4-BF20-279CD7CF6057}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DB04D636-E06E-42CF-9951-C3CDFF65A4F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RisingTides_4" ID="{FE0A7708-354C-4E72-83BF-720F22162325}">
+							<Language>SFX</Language>
+							<AudioFile>RisingTides_4.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="976122439"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RisingTides_4" ID="{FE0A7708-354C-4E72-83BF-720F22162325}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RisingTides_5" ID="{9D47F650-8F40-4BCD-92C9-D132759282CB}" ShortID="186483115">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B6BCC4-C827-43E4-BF20-279CD7CF6057}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DB04D636-E06E-42CF-9951-C3CDFF65A4F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RisingTides_5" ID="{2EB0175D-AAE5-425F-A293-559D065D0012}">
+							<Language>SFX</Language>
+							<AudioFile>RisingTides_5.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="27707748"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RisingTides_5" ID="{2EB0175D-AAE5-425F-A293-559D065D0012}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RisingTides_6" ID="{70074E57-B188-471E-B916-D9AEB55CF092}" ShortID="331786701">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B6BCC4-C827-43E4-BF20-279CD7CF6057}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DB04D636-E06E-42CF-9951-C3CDFF65A4F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RisingTides_6" ID="{027850EA-1206-480B-B437-2351F08DFDD9}">
+							<Language>SFX</Language>
+							<AudioFile>RisingTides_6.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="960075882"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RisingTides_6" ID="{027850EA-1206-480B-B437-2351F08DFDD9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RisingTides_7" ID="{A908D306-E6EC-431B-93D7-5F757EE32747}" ShortID="353257845">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B6BCC4-C827-43E4-BF20-279CD7CF6057}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DB04D636-E06E-42CF-9951-C3CDFF65A4F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RisingTides_7" ID="{3571BF86-B6EF-425E-85A1-1043D231CC9D}">
+							<Language>SFX</Language>
+							<AudioFile>RisingTides_7.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="982293447"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RisingTides_7" ID="{3571BF86-B6EF-425E-85A1-1043D231CC9D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RisingTides_8" ID="{CF202A6E-6672-4273-AE74-0A7FD8DDBFA2}" ShortID="436817530">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B6BCC4-C827-43E4-BF20-279CD7CF6057}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DB04D636-E06E-42CF-9951-C3CDFF65A4F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RisingTides_8" ID="{8CEFC8EA-EAD0-4729-BB25-5BB563EDAC5E}">
+							<Language>SFX</Language>
+							<AudioFile>RisingTides_8.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="68044474"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RisingTides_8" ID="{8CEFC8EA-EAD0-4729-BB25-5BB563EDAC5E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RisingTides_9" ID="{920D7845-7412-4B01-B3A0-F1E0F2A04427}" ShortID="31029894">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B6BCC4-C827-43E4-BF20-279CD7CF6057}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DB04D636-E06E-42CF-9951-C3CDFF65A4F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RisingTides_9" ID="{4264BAA5-ABD3-4762-AB2F-9D52DA7A76CA}">
+							<Language>SFX</Language>
+							<AudioFile>RisingTides_9.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="873194353"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RisingTides_9" ID="{4264BAA5-ABD3-4762-AB2F-9D52DA7A76CA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RisingTides_1" ID="{4C7C707C-F891-4023-88D2-E5819EBD1870}" ShortID="581960243">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B6BCC4-C827-43E4-BF20-279CD7CF6057}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DB04D636-E06E-42CF-9951-C3CDFF65A4F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RisingTides_1" ID="{1D817783-44D0-41D1-856E-E47B00C4B6CE}">
+							<Language>SFX</Language>
+							<AudioFile>RisingTides_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="276073894"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RisingTides_1" ID="{1D817783-44D0-41D1-856E-E47B00C4B6CE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RisingTides_2" ID="{1F3F4941-D4E9-44DA-81B6-6E67CADAB507}" ShortID="1069424350">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B6BCC4-C827-43E4-BF20-279CD7CF6057}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DB04D636-E06E-42CF-9951-C3CDFF65A4F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RisingTides_2" ID="{9B1969D8-7240-42D9-BAB5-36C563C71FA8}">
+							<Language>SFX</Language>
+							<AudioFile>RisingTides_2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="219456220"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RisingTides_2" ID="{9B1969D8-7240-42D9-BAB5-36C563C71FA8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RisingTides_3" ID="{DEF49C5F-6B69-4E76-9F44-F5661EA4762E}" ShortID="44648819">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B6BCC4-C827-43E4-BF20-279CD7CF6057}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DB04D636-E06E-42CF-9951-C3CDFF65A4F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RisingTides_3" ID="{E39B19FE-8793-45F1-9C0A-A8E3E74A37A7}">
+							<Language>SFX</Language>
+							<AudioFile>RisingTides_3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="760967207"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RisingTides_3" ID="{E39B19FE-8793-45F1-9C0A-A8E3E74A37A7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

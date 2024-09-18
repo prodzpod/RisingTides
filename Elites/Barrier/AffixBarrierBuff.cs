@@ -77,7 +77,7 @@ namespace RisingTides.Buffs
 			barrierBarSprite = RisingTidesPlugin.AssetBundle.LoadAsset<Sprite>("Assets/Mods/RisingTides/Elites/Barrier/texAffixBarrierBarRecolor.png");
 			On.RoR2.UI.HealthBar.UpdateBarInfos += HealthBar_UpdateBarInfos;
 
-            IL.RoR2.HealthComponent.TakeDamage += HealthComponent_TakeDamage;
+            IL.RoR2.HealthComponent.TakeDamageProcess += HealthComponent_TakeDamage;
 			
 			GenericGameEvents.OnHitEnemy += GenericGameEvents_OnHitEnemy;
 

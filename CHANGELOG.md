@@ -1,3 +1,5 @@
+## 1.2.1
+* fixes for SotS
 ## 1.2.0
 * Added a new Tier 2 Phenakite elite
 * Increased Mother Mushrum spore damage

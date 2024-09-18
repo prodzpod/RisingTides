@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1912764698" Type="User" Language="SFX" Hash="{CFC335FA-6B3C-9521-9B39-659250CB6FB5}">
+			<ShortName>RisingTides</ShortName>
+			<Path>RisingTides.bnk</Path>
+			<Media>
+				<File Id="27707748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RisingTides_5.wav</ShortName>
+					<CachePath>SFX/RisingTides_5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="68044474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RisingTides_8.wav</ShortName>
+					<CachePath>SFX/RisingTides_8_818F3B66.wem</CachePath>
+				</File>
+				<File Id="219456220" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RisingTides_2.wav</ShortName>
+					<CachePath>SFX/RisingTides_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="276073894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RisingTides_1.wav</ShortName>
+					<CachePath>SFX/RisingTides_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="760967207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RisingTides_3.wav</ShortName>
+					<CachePath>SFX/RisingTides_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="873194353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RisingTides_9.wav</ShortName>
+					<CachePath>SFX/RisingTides_9_818F3B66.wem</CachePath>
+				</File>
+				<File Id="960075882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RisingTides_6.wav</ShortName>
+					<CachePath>SFX/RisingTides_6_818F3B66.wem</CachePath>
+				</File>
+				<File Id="976122439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RisingTides_4.wav</ShortName>
+					<CachePath>SFX/RisingTides_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="982293447" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RisingTides_7.wav</ShortName>
+					<CachePath>SFX/RisingTides_7_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1244815656" Name="RisingTides_Play_elite_aquamarine_spawn">
+					<MediaRefs>
+						<MediaRef Id="873194353"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2130090150" Name="RisingTides_Play_elite_bismuth_spawn">
+					<MediaRefs>
+						<MediaRef Id="27707748"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1573524750" Name="RisingTides_Play_elite_onyx_spawn">
+					<MediaRefs>
+						<MediaRef Id="760967207"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2076393873" Name="RisingTides_Play_elite_phenakite_spawn">
+					<MediaRefs>
+						<MediaRef Id="982293447"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2062689349" Name="RisingTides_Play_onyx_implosion">
+					<MediaRefs>
+						<MediaRef Id="960075882"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4058928287" Name="RisingTides_Play_onyx_implosion_buildup">
+					<MediaRefs>
+						<MediaRef Id="68044474"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1213542370" Name="RisingTides_Play_onyx_mark_explosion">
+					<MediaRefs>
+						<MediaRef Id="976122439"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3104420676" Name="RisingTides_Play_realgar_scar">
+					<MediaRefs>
+						<MediaRef Id="219456220"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3352878952" Name="RisingTides_Play_realgar_spawn">
+					<MediaRefs>
+						<MediaRef Id="276073894"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B3F36FC3-BEE3-AA42-EFAE-43247F25B45A}</FileHash>
+</SoundBanksInfo>
