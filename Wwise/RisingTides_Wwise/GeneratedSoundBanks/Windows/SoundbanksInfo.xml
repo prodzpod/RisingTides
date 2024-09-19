@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1912764698" Type="User" Language="SFX" Hash="{CFC335FA-6B3C-9521-9B39-659250CB6FB5}">
+		<SoundBank Id="1912764698" Type="User" Language="SFX" Hash="{9D103110-08AB-F031-4A81-0C2A135847FD}">
 			<ShortName>RisingTides</ShortName>
 			<Path>RisingTides.bnk</Path>
 			<Media>
@@ -112,5 +112,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B3F36FC3-BEE3-AA42-EFAE-43247F25B45A}</FileHash>
+	<FileHash>{7C440893-27F3-30ED-A67D-9D1B706B01FE}</FileHash>
 </SoundBanksInfo>

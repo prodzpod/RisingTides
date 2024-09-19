@@ -1,3 +1,5 @@
+## 1.2.2
+* adjusted volumes
 ## 1.2.1
 * fixes for SotS
 ## 1.2.0
