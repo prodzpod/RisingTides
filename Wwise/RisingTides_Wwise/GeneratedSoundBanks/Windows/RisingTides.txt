@@ -9,14 +9,17 @@ Event	ID	Name			Wwise Object Path	Notes
 	3352878952	RisingTides_Play_realgar_spawn			\Default Work Unit\RisingTides_Play_realgar_spawn	
 	4058928287	RisingTides_Play_onyx_implosion_buildup			\Default Work Unit\RisingTides_Play_onyx_implosion_buildup	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	27707748	RisingTides_5	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RisingTides_5		606676
-	68044474	RisingTides_8	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_8_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RisingTides_8		446816
-	219456220	RisingTides_2	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RisingTides_2		623200
-	276073894	RisingTides_1	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RisingTides_1		589372
-	760967207	RisingTides_3	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RisingTides_3		326604
-	873194353	RisingTides_9	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_9_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RisingTides_9		502024
-	960075882	RisingTides_6	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RisingTides_6		641928
-	976122439	RisingTides_4	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RisingTides_4		131860
-	982293447	RisingTides_7	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\RisingTides_7		351632
+	27707748	RisingTides_5	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\mixer\RisingTides_5		606676
+	68044474	RisingTides_8	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_8_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\mixer\RisingTides_8		446816
+	219456220	RisingTides_2	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\mixer\RisingTides_2		623200
+	276073894	RisingTides_1	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\mixer\RisingTides_1		589372
+	760967207	RisingTides_3	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\mixer\RisingTides_3		326604
+	873194353	RisingTides_9	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_9_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\mixer\RisingTides_9		502024
+	960075882	RisingTides_6	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\mixer\RisingTides_6		641928
+	976122439	RisingTides_4	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\mixer\RisingTides_4		131860
+	982293447	RisingTides_7	C:\Users\User\Desktop\Development\RoR2\RisingTides\Wwise\RisingTides_Wwise\.cache\Windows\SFX\RisingTides_7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\mixer\RisingTides_7		351632
 

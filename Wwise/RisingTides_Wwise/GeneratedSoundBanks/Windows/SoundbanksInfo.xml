@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7F3A15DD-340D-EF22-59CE-AC32EA50B08A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,8 +21,11 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1912764698" Type="User" Language="SFX" Hash="{9D103110-08AB-F031-4A81-0C2A135847FD}">
+		<SoundBank Id="1912764698" Type="User" Language="SFX" Hash="{3790A990-7030-8078-D98D-D9B3D6CE0C03}">
 			<ShortName>RisingTides</ShortName>
 			<Path>RisingTides.bnk</Path>
 			<Media>
@@ -110,7 +113,10 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7C440893-27F3-30ED-A67D-9D1B706B01FE}</FileHash>
+	<FileHash>{7A1D6FDD-F72C-545A-4CA1-45C32FE0EBB8}</FileHash>
 </SoundBanksInfo>
