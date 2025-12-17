@@ -1,8 +1,6 @@
 using MysticsRisky2Utils;
 using R2API;
 using RoR2;
-using RoR2.Orbs;
-using System.Linq;
 using UnityEngine;
 
 namespace RisingTides.Equipment

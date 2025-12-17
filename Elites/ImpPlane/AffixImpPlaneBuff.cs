@@ -1,19 +1,14 @@
 using MysticsRisky2Utils;
 using MysticsRisky2Utils.BaseAssetTypes;
 using R2API;
-using R2API.Networking;
-using R2API.Networking.Interfaces;
 using RoR2;
 using RoR2.Projectile;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
-using UnityEngine.Networking;
-using UnityEngine.Rendering.PostProcessing;
 
 namespace RisingTides.Buffs
 {
-	public class AffixImpPlane : BaseBuff
+    public class AffixImpPlane : BaseBuff
 	{
 		public static ConfigOptions.ConfigurableValue<float> riftProjectileInterval = ConfigOptions.ConfigurableValue.CreateFloat(
 			RisingTidesPlugin.PluginGUID, RisingTidesPlugin.PluginName, RisingTidesPlugin.config,
@@ -111,6 +106,7 @@ namespace RisingTides.Buffs
 						DotController.InflictDot(
 							teamMember.gameObject,
 							attackerInfo.gameObject,
+							damageInfo.inflictedHurtbox,
 							ImpPlaneScar.dotIndex,
 							scarDuration * damageInfo.procCoefficient,
 							1f

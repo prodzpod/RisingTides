@@ -32,7 +32,7 @@ namespace RisingTides
     {
         public const string PluginGUID = "com.themysticsword.risingtides";
         public const string PluginName = "Rising Tides";
-        public const string PluginVersion = "1.2.3";
+        public const string PluginVersion = "1.2.4";
 
         public static System.Reflection.Assembly executingAssembly;
         internal static System.Type declaringType;

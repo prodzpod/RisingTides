@@ -3,7 +3,6 @@ using MysticsRisky2Utils.BaseAssetTypes;
 using RoR2;
 using UnityEngine;
 using UnityEngine.Networking;
-using R2API;
 
 namespace RisingTides.Buffs
 {

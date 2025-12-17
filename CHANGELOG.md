@@ -1,3 +1,5 @@
+## 1.2.4
+* fixes for AC
 ## 1.2.3
 * sfx now takes volume into account
 ## 1.2.2

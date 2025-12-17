@@ -25,7 +25,7 @@
 				<GameParameter Id="3673881719" Name="Volume_SFX"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1912764698" Type="User" Language="SFX" Hash="{3790A990-7030-8078-D98D-D9B3D6CE0C03}">
+		<SoundBank Id="1912764698" Type="User" Language="SFX" Hash="{3E50C59D-BF22-BDF3-531B-777968A703FC}">
 			<ShortName>RisingTides</ShortName>
 			<Path>RisingTides.bnk</Path>
 			<Media>
@@ -118,5 +118,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7A1D6FDD-F72C-545A-4CA1-45C32FE0EBB8}</FileHash>
+	<FileHash>{14763BCC-BE86-302E-2A8E-680D73B6ADD8}</FileHash>
 </SoundBanksInfo>

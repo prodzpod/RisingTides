@@ -1,7 +1,6 @@
 using MysticsRisky2Utils.BaseAssetTypes;
 using UnityEngine;
 using R2API;
-using RoR2;
 using MysticsRisky2Utils;
 
 namespace RisingTides.Elites

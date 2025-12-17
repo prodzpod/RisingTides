@@ -1,10 +1,8 @@
 using MysticsRisky2Utils;
 using MysticsRisky2Utils.BaseAssetTypes;
 using RoR2;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
-using R2API;
 using MonoMod.Cil;
 using Mono.Cecil.Cil;
 

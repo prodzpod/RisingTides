@@ -2,7 +2,6 @@ using MysticsRisky2Utils;
 using R2API;
 using RoR2;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 
 namespace RisingTides.Equipment
 {

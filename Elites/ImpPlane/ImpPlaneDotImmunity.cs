@@ -17,7 +17,7 @@ namespace RisingTides.Buffs
 			buffDef.buffColor = new Color32(230, 0, 60, 255);
 
             On.RoR2.CharacterBody.SetBuffCount += CharacterBody_SetBuffCount;
-            On.RoR2.DotController.AddDot += DotController_AddDot;
+            On.RoR2.DotController.AddDot_GameObject_float_HurtBox_DotIndex_float_Nullable1_Nullable1_Nullable1 += DotController_AddDot;
 
 			Overlays.CreateOverlay(RisingTidesPlugin.AssetBundle.LoadAsset<Material>("Assets/Mods/RisingTides/Elites/ImpPlane/matAffixImpPlaneBuffedOutline.mat"), (model) =>
 			{
@@ -25,10 +25,10 @@ namespace RisingTides.Buffs
 			});
 		}
 
-        private void DotController_AddDot(On.RoR2.DotController.orig_AddDot orig, DotController self, GameObject attackerObject, float duration, DotController.DotIndex dotIndex, float damageMultiplier, uint? maxStacksFromAttacker, float? totalDamage, DotController.DotIndex? preUpgradeDotIndex)
+        private void DotController_AddDot(On.RoR2.DotController.orig_AddDot_GameObject_float_HurtBox_DotIndex_float_Nullable1_Nullable1_Nullable1 orig, DotController self, GameObject attackerObject, float duration, HurtBox hurtBox, DotController.DotIndex dotIndex, float damageMultiplier, uint? maxStacksFromAttacker, float? totalDamage, DotController.DotIndex? preUpgradeDotIndex)
         {
 			if (self.victimBody && self.victimBody.HasBuff(buffDef)) return;
-			orig(self, attackerObject, duration, dotIndex, damageMultiplier, maxStacksFromAttacker, totalDamage, preUpgradeDotIndex);
+			orig(self, attackerObject, duration, hurtBox, dotIndex, damageMultiplier, maxStacksFromAttacker, totalDamage, preUpgradeDotIndex);
         }
 
         private void CharacterBody_SetBuffCount(On.RoR2.CharacterBody.orig_SetBuffCount orig, CharacterBody self, BuffIndex buffType, int newCount)

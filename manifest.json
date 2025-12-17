@@ -1,20 +1,20 @@
 {
   "name": "RealerRisingTides",
-  "version_number": "1.2.3",
+  "version_number": "1.2.4",
   "website_url": "https://github.com/prodzpod/RisingTides",
   "description": "Adds new elites and a new enemy!",
   "dependencies": [
-    "bbepis-BepInExPack-5.4.1905",
-    "RiskofThunder-HookGenPatcher-1.2.3",
-    "prodzpod-RealerMysticsRisky2Utils-2.0.16",
-    "RiskofThunder-R2API_Core-5.0.10",
-    "RiskofThunder-R2API_DamageType-1.0.4",
-    "RiskofThunder-R2API_Dot-1.0.0",
-    "RiskofThunder-R2API_Language-1.0.1",
-    "RiskofThunder-R2API_Networking-1.0.2",
-    "RiskofThunder-R2API_Prefab-1.0.3",
-    "RiskofThunder-R2API_RecalculateStats-1.2.0",
-    "RiskofThunder-R2API_Elites-1.0.3",
+    "bbepis-BepInExPack-5.4.2121",
+    "RiskofThunder-HookGenPatcher-1.2.9",
+    "prodzpod-RealerMysticsRisky2Utils-2.0.22",
+    "RiskofThunder-R2API_Core-5.3.0",
+    "RiskofThunder-R2API_DamageType-1.1.7",
+    "RiskofThunder-R2API_Dot-1.1.2",
+    "RiskofThunder-R2API_Language-1.1.0",
+    "RiskofThunder-R2API_Networking-1.0.4",
+    "RiskofThunder-R2API_Prefab-1.1.1",
+    "RiskofThunder-R2API_RecalculateStats-1.6.5",
+    "RiskofThunder-R2API_Elites-1.1.0",
     "RiskofThunder-R2API_Deployable-1.0.1"
   ]
 }
